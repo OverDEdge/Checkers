@@ -6,7 +6,7 @@ Checkers tile by: "https://opengameart.org/users/andi"
 
 import 'package:flutter/material.dart';
 
-import './homepage.dart';
+import 'game_board.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,6 +15,6 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return HomePage();
+    return GameBoard();
   }
 }
